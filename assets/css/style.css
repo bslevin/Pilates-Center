@@ -14,7 +14,7 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -30,7 +30,7 @@ h1, h2 {
 /* navigation links */
 
 #menu {
-    float: left;
+    float: right;
     font-size: 110%;
     letter-spacing: 4px;
 }
@@ -40,7 +40,7 @@ h1, h2 {
 }
 
 #menu li {
-    float: right;
+    float: left;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -69,7 +69,7 @@ h1, h2 {
 }
 
 #cover-text, #cover-text h2 {
-    color: #fff;
+    color: black;
 }
 
 #hero-image {
@@ -94,21 +94,21 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 75%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 300px;
+    width: 500px;
     height: 200px;
 
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: none;
 
-    bottom: 30px;
-    right: 150px;
+    bottom: 10px;
+    left: 30px;
 
     position: absolute;
 }
