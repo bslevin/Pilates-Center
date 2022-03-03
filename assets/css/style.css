@@ -120,3 +120,49 @@ h1, h2, h3 {
 
     position: absolute;
 }
+
+
+#machine{
+    height: 300px;
+    width: 25%;
+    background-image: url(../images/machine\ pilates.jpeg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
+
+}
+
+#mat {
+    height: 300px;
+    width: 25%;
+    background-image: url(../images/floor\ pilates.jpeg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
+}
+
+#prenatal {
+    height: 300px;
+    width: 25%;
+    background-image: url(../images/prenatal\ pilates.jpeg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
+}
+
+#couple {
+    height: 300px;
+    width: 25%;
+    background-image: url(../images/couples1.jpeg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
+}
