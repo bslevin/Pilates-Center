@@ -14,7 +14,9 @@ body {
 
 /* headings and logo */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -35,7 +37,8 @@ h1, h2, h3 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -68,10 +71,12 @@ h1, h2, h3 {
     position: relative;
 }
 
-#cover-text, #cover-text h3 {
+#cover-text,
+#cover-text h3 {
     color: black;
 }
-    /*height: 50%;
+
+/*height: 50%;
         width: auto;
         background-position: center;
         background-repeat: no-repeat;
@@ -82,7 +87,7 @@ h1, h2, h3 {
     width: 100%;
     background: url('../images/hero-image\ 2.jpeg');
     background-position: center;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 
     /* animates zoom effect on loading page */
@@ -121,48 +126,42 @@ h1, h2, h3 {
     position: absolute;
 }
 
+#classes {
 
-#machine{
-    height: 300px;
+}
+
+#classes div {
+    float: left;
+    height: 200px;
     width: 25%;
-    background-image: url(../images/machine\ pilates.jpeg);
     background-position: center;
-	background-repeat: no-repeat;
-    background-size: cover;
-    
-    position: relative;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: solid 1px red;
+}
 
+#classes h2, p {
+    color: rgb(32, 224, 14);
+}
+
+#machine {
+    background-image: url(../images/machine\ pilates.jpeg);
+    
 }
 
 #mat {
-    height: 300px;
-    width: 25%;
     background-image: url(../images/floor\ pilates.jpeg);
-    background-position: center;
-	background-repeat: no-repeat;
-    background-size: cover;
     
-    position: relative;
+    
 }
 
 #prenatal {
-    height: 300px;
-    width: 25%;
     background-image: url(../images/prenatal\ pilates.jpeg);
-    background-position: center;
-	background-repeat: no-repeat;
-    background-size: cover;
     
-    position: relative;
 }
 
 #couple {
-    height: 300px;
-    width: 25%;
-    background-image: url(../images/couples1.jpeg);
-    background-position: center;
-	background-repeat: no-repeat;
-    background-size: cover;
-    
-    position: relative;
+    background-image: url(../images/couples1.jpeg);  
 }
