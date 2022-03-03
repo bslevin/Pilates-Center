@@ -61,37 +61,45 @@ h1, h2, h3 {
 /* hero image and cover text */
 
 #hero-outer {
-    height: 600px;
+    height: 450px;
     width: 100%;
     overflow: hidden;
 
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text, #cover-text h3 {
     color: black;
 }
+    /*height: 50%;
+        width: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover */
 
 #hero-image {
-    height: 600px;
+    height: 450px;
     width: 100%;
-    background: url('../images/hero-image\ 2.jpeg') no-repeat center center;
+    background: url('../images/hero-image\ 2.jpeg');
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
 
     /* animates zoom effect on loading page */
-    animation-name: hero-zoom;
+    /*animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;*/
 }
 
 /* creates the level of zoom for hero image */
-@keyframes hero-zoom {
+/*@keyframes hero-zoom {
     from{
         transform: scale(1);
     }
     to{
         transform: scale(1.1);
     }
-}
+}*/
 
 #cover-text {
     font-size: 75%;
@@ -99,15 +107,15 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 500px;
+    width: 750px;
     height: 200px;
 
-    padding-top: 40px;
-    padding-left: 10px;
+    /*padding-top: 0px;
+    padding-left: 10px;*/
 
     background-color: none;
 
-    bottom: 10px;
+    top: 60%;
     left: 30px;
 
     position: absolute;
