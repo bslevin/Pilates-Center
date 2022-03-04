@@ -69,18 +69,9 @@ h3 {
     overflow: hidden;
 
     position: relative;
-}
 
-#cover-text,
-#cover-text h3 {
-    color: black;
+    outline: 3px solid red;
 }
-
-/*height: 50%;
-        width: auto;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover */
 
 #hero-image {
     height: 450px;
@@ -90,11 +81,14 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
 
+    position: absolute;
+
+}
+
     /* animates zoom effect on loading page */
     /*animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;*/
-}
 
 /* creates the level of zoom for hero image */
 /*@keyframes hero-zoom {
@@ -106,22 +100,21 @@ h3 {
     }
 }*/
 
-#cover-text {
-    font-size: 75%;
+#cover-text h3 {
+    font-size: 100%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
+    color: black;
     letter-spacing: 4px;
 
     width: 750px;
-    height: 200px;
+    height: 70px;
 
-    /*padding-top: 0px;
-    padding-left: 10px;*/
+    background-color: rgba(200, 200, 200, .6);
 
-    background-color: none;
-
-    top: 60%;
-    left: 30px;
+    padding: 5px 5px;
+    bottom: 100px;
+    left: 20px;
 
     position: absolute;
 }
@@ -139,11 +132,43 @@ h3 {
     background-size:cover;
     overflow: hidden;
     box-sizing: border-box;
-    border: solid 1px red;
+    border: solid 4px white;
+
+    position: relative;
 }
 
-#classes h2, p {
-    color: rgb(32, 224, 14);
+#classes h2 {
+    font-size: 100%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    color: greenyellow;
+    letter-spacing: 4px;
+
+    padding: 5px 5px;
+
+    /*background-color: rgba(200, 200, 200, .6);*/
+
+    
+    top: 0px;
+    right: 0px;
+}
+
+#classes p {
+    font-size: 100%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    color: silver;
+    letter-spacing: 4px;
+
+    padding: 5px 5px;
+
+    /*background-color: rgba(236, 13, 13, 0.6);*/
+
+    
+    bottom: 0px;
+    position: absolute;
+    
+    
 }
 
 #machine {
@@ -165,3 +190,21 @@ h3 {
 #couple {
     background-image: url(../images/couples1.jpeg);  
 }
+
+
+#float {
+    position: relative;
+    border: 3px solid #fff;
+    padding: 20px;
+    
+}
+
+.float-child {
+    position: absolute;
+    float: left;
+    height: 200px;
+    width: 33%;
+    padding: 20px;
+    border: 2px solid red;
+    
+}  
